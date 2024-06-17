@@ -5,7 +5,7 @@ RUN apt-get update && apt-get install -y locales && rm -rf /var/lib/apt/lists/* 
 ENV LANG en_US.utf8
 
 RUN <<EOF
-    apt-get update && apt-get install -y default-jre default-jdk python3 python3-pip python3-venv wget git
+    apt-get update && apt-get install -y default-jre default-jdk python3 python3-pip python3-venv wget git clang
     wget https://github.com/joular/powerjoular/releases/download/0.7.3/powerjoular_0.7.3_amd64.deb
     dpkg -i powerjoular_0.7.3_amd64.deb
 EOF
