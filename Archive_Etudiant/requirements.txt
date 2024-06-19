@@ -1,0 +1,10 @@
+numpy
+keras
+tensorflow==2.15.0
+onnx
+tf2onnx 
+pillow
+scikit-learn
+matplotlib
+IPython
+Pandas
